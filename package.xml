@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>stas_test_extension_2</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Insert your shop in Facebook!&#xD;
+Beeshopy extension for Magento, it allows you to integrates your magento store with beeshopy.</summary>
+    <description>Custom Module that allows you to connect with beeshopy service and integrates your magento store with Facebook. &#xD;
+&#xD;
+It contains a custom API and cart processing.</description>
+    <notes>Adding js file to package</notes>
+    <authors><author><name>Miguel &#xC1;ngel Mart&#xED;nez Trivi&#xF1;o</name><user>auto-converted</user><email>migmartri@gmail.com</email></author></authors>
+    <date>2011-09-14</date>
+    <time>08:56:17</time>
+    <contents><target name="magecommunity"><dir name="Beecoder"><dir name="Beeshopy"><dir name="Block"><file name="Track.php" hash="a40d400b02f73d5b4dea35c348ffee00"/></dir><dir name="Helper"><file name="Data.php" hash="ead88c0b629856526d39e7fb6f3a4ca5"/></dir><dir name="Model"><file name="Api.php" hash="8e02acad05b4494025b76a7a1504351c"/></dir><dir name="controllers"><file name="AdminController.php" hash="1b343fe1ef8ae5fafc5d355844e3f508"/><file name="IndexController.php" hash="bad3391bb742a55a2ee62895cb723e87"/></dir><dir name="etc"><file name="api.xml" hash="507ae656ea724a77def33efd8429d674"/><file name="config.xml" hash="2fcfaeccb838771505e12715c9618c3d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Beecoder_Beeshopy.xml" hash="55666ef45f08dab44b138e49532ca3b8"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="beeshopy.xml" hash="d307958edf914638aa5cd57f8d449c46"/></dir><dir name="template"><dir name="beeshopy"><file name="track.phtml" hash="47c95001bb55042c5ae7d8ee4b03cccf"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><dir name="beeshopy"><file name="beetailer.js" hash="1ec29bef61895d80519a8559734c90e6"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
